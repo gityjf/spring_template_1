@@ -45,6 +45,7 @@ public class SpringJdbcTemplateTest {
         User user = (User)applicationContext.getBean("user");
         System.out.println(user.getUserName());
 
+
     }
 
     @Test
