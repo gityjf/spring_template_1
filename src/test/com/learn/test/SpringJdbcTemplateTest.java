@@ -36,6 +36,8 @@ public class SpringJdbcTemplateTest {
         UserController userCon = (UserController)applicationContext.getBean("userController");
         userCon.addUser();
 
+
+
     }
 
     @Test
